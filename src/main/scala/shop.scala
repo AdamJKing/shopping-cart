@@ -9,7 +9,4 @@ import model.*
     case unknown =>  throw IllegalArgumentException(s"We don't sell ${unknown}s!")
   }
 
-  println(checkout(Cart(items)).show)
-
-def checkout(cart: Cart): Price =
-  cart.items.view.map(_.price).sum
+  println(Cart(items).total.show)
