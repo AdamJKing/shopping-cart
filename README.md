@@ -1,5 +1,7 @@
 # Shopping Cart
 
+Implementations for each step are tagged respectively (`step-one`, `step-two`).
+
 Run the application by supplying items like so;
 
 ```bash
